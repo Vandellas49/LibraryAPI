@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20211121002916_fsdfsdf.cs" />
+    <Compile Remove="Migrations\20211121002916_fsdfsdf.Designer.cs" />
+    <Compile Remove="Migrations\20211121003123_21112021.cs" />
+    <Compile Remove="Migrations\20211121003123_21112021.Designer.cs" />
+    <Compile Remove="Migrations\20211121005635_21112021.cs" />
+    <Compile Remove="Migrations\20211121005635_21112021.Designer.cs" />
+    <Compile Remove="Migrations\20211122112047_22112021.cs" />
+    <Compile Remove="Migrations\20211122112047_22112021.Designer.cs" />
+    <Compile Remove="Migrations\20211122112139_22112021.cs" />
+    <Compile Remove="Migrations\20211122112139_22112021.Designer.cs" />
+    <Compile Remove="Migrations\20211125132300_25112021v2.cs" />
+    <Compile Remove="Migrations\20211125132300_25112021v2.Designer.cs" />
+    <Compile Remove="Migrations\20211125132425_25112021v2.cs" />
+    <Compile Remove="Migrations\20211125132425_25112021v2.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.21">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+
+</Project>
